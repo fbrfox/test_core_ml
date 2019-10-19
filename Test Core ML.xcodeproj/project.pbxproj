@@ -14,6 +14,7 @@
 		72557475235AAF81009627A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72557473235AAF81009627A5 /* LaunchScreen.storyboard */; };
 		72557480235AAF81009627A5 /* Test_Core_MLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255747F235AAF81009627A5 /* Test_Core_MLTests.swift */; };
 		7255748B235AAF81009627A5 /* Test_Core_MLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255748A235AAF81009627A5 /* Test_Core_MLUITests.swift */; };
+		72557499235AAFA8009627A5 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72557498235AAFA8009627A5 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72557486235AAF81009627A5 /* Test Core MLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Core MLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7255748A235AAF81009627A5 /* Test_Core_MLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Core_MLUITests.swift; sourceTree = "<group>"; };
 		7255748C235AAF81009627A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72557498235AAFA8009627A5 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		72557469235AAF80009627A5 /* Test Core ML */ = {
 			isa = PBXGroup;
 			children = (
+				72557498235AAFA8009627A5 /* Inceptionv3.mlmodel */,
 				7255746A235AAF80009627A5 /* AppDelegate.swift */,
 				7255746C235AAF80009627A5 /* ViewController.swift */,
 				7255746E235AAF80009627A5 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7255746D235AAF80009627A5 /* ViewController.swift in Sources */,
+				72557499235AAFA8009627A5 /* Inceptionv3.mlmodel in Sources */,
 				7255746B235AAF80009627A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CWM36AT76J;
+				DEVELOPMENT_TEAM = 74644YBP8K;
 				INFOPLIST_FILE = "Test Core ML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CWM36AT76J;
+				DEVELOPMENT_TEAM = 74644YBP8K;
 				INFOPLIST_FILE = "Test Core ML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
